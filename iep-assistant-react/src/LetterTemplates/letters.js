@@ -1,0 +1,3 @@
+const letterDict = {};
+letterDict['BehalfCreate']='${user.facultyName},\n\tI hope this email finds you well! My name is ${user.userName}, I am reaching out to you on\n behalf of ${user.childName} who is a student under your supervision. I\nam reaching out to you today because I am concerned about ${user.childName}’s\nperformance in your class, and I was hoping that you would be able to assist me potentially in\nthe process of setting up an Individualized Education Plan (IEP) for him/her.\n\tIf you are able to assist me in this endeavor, I can be contacted from this email address. I look forward to working with you!\n\nBest regards,\n${user.userName}';
+export default letterDict;
