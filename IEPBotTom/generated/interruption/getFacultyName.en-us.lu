@@ -15,11 +15,9 @@
 
 
 # TextInput_Response_qdMWSe
-- {@peronName}
-- The teacher's name is {@peronName}
-- their name is {@peronName}
-- I think their name is {@peronName}
-- If I remember correctly their name is {@personName}
+- Tommy
+- It is Monica
+- Their name is Dr. Duncan
 
 
 > # Entity definitions
@@ -38,6 +36,3 @@
 > # RegEx entities
 
 
-> # Pattern.Any entities
-
-@ patternany peronName

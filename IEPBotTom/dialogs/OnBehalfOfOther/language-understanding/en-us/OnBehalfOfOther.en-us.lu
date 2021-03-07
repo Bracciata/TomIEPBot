@@ -1,5 +1,8 @@
 
 # TextInput_Response_QhccFk
-- {peronName}
-- My kid's name is {peronName}
+- Tommy
+- Minnie
+- Their name is George
+- My kid's name is Monica
 @ prebuilt personName
+@ prebuilt email

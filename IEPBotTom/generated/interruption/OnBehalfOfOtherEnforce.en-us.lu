@@ -7,22 +7,6 @@
 
 > # Intent definitions
 
-# TextInput_Response_jt2Yd3
-- {@personName}
-- Their name is {@personName}
-
-
-# TextInput_Response_r0PGKF
-- Their email is {@email}
-- {@email}
-
-
-# TextInput_Response_RteonF
-
-
-# TextInput_Response_ZObnWL
-
-
 # ChoiceInput_Response_K1k9Cz
 - Yes
 - No
@@ -32,10 +16,6 @@
 
 
 > # PREBUILT Entity definitions
-
-@ prebuilt personName
-
-@ prebuilt email
 
 
 > # Phrase list definitions

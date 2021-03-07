@@ -9,10 +9,6 @@
 # SendActivity_rRiyXS()
 - TEMP EMAIL CREATION LINK name ${user.facultyName} and email ${user.facultyEmail}
 
-# TextInput_Prompt_BuKWFJ()
-- Since your request was ignored I would reccomend reaching out to somebody else. If you reached out to their teacher then try the principal, if you reached out to the principal try somebody involved in the school district, once you have decided who to reach out to will you share their name with me so I can help you!
-# TextInput_Prompt_CCNatf()
-- Thank you. May I get ${user.facultyName}'s email.
 # TextInput_Prompt_xXsq5a()
 - In that case may I get your child's name too?
 # TextInput_InvalidPrompt_xXsq5a()
@@ -24,28 +20,8 @@
 # SendActivity_0SxvwX()
 - TEMP Email Generation name ${user.facultyName} and email ${user.facultyEmail}
 
-# TextInput_InvalidPrompt_BuKWFJ()
-- I missed that. What is the faculty member's name?
-# TextInput_InvalidPrompt_CCNatf()
-- I did not understand that. What is ${user.facultyName}'s email?
-# TextInput_Prompt_mMrFnw()
-- I can help you draft the email requesting written denial. Can you give me the name of the teacher or faculty member you would like to reach out to?
-# TextInput_InvalidPrompt_mMrFnw()
-- Sorry I did not catch that, what is their name?
-# TextInput_Prompt_n59hOk()
-- Can I get ${user.facultyName}'s email?
-# TextInput_InvalidPrompt_n59hOk()
-- I missed that, can you repeat their email for me.
 # SendActivity_Zgujgi()
 - TEMP: ${user.facultyName} and ${user.facultyEmail}
-# TextInput_Prompt_MwLejs()
-- I can help you draft the email requesting an evaluation. Can you give me the name of the teacher or faculty member you would like to reach out to?
-# TextInput_InvalidPrompt_MwLejs()
-- I missed that ${user.userName}, what is their name?
-# TextInput_Prompt_kgNVe6()
-- Can I get ${user.facultyName}'s email?
-# TextInput_InvalidPrompt_kgNVe6()
-- Sorry I did not catch that, what is their email?
 # SendActivity_lqhSa6()
 - TEMP: email ${user.facultyName} and ${user.facultyEmail}
 # SendActivity_WMcBDY()
@@ -53,4 +29,19 @@
 # SendActivity_YKO7Gn()
 [Activity
     Text = In that case, I recommend reaching out to their teacher first.
+]
+
+# SendActivity_5S89gb()
+[Activity
+    Text = I can help you draft the email requesting an evaluation. You will need to select a faculty member to reach out.
+]
+
+# SendActivity_hW88Co()
+[Activity
+    Text = I can help you draft the email requesting written denial. You will need to select the faculty member you would like to reach out to.
+]
+
+# SendActivity_DveJ7Q()
+[Activity
+    Text = Since your request was ignored I would recommend reaching out to somebody else. If you reached out to their teacher then try the principal, if you reached out to the principal try somebody involved in the school district.
 ]

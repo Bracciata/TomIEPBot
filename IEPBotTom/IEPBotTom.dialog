@@ -127,20 +127,34 @@
           "condition": "indexOf(toLower(user.choice),'create')!=-1",
           "actions": [
             {
-              "$kind": "Microsoft.SendActivity",
+              "$kind": "Microsoft.BeginDialog",
               "$designer": {
-                "id": "eIu9YF"
+                "id": "lEqW3F"
               },
-              "activity": "${SendActivity_eIu9YF()}"
+              "activityProcessed": true,
+              "dialog": "CreateForSelf"
+            },
+            {
+              "$kind": "Microsoft.EndDialog",
+              "$designer": {
+                "id": "0D2qke"
+              }
             }
           ],
           "elseActions": [
             {
-              "$kind": "Microsoft.SendActivity",
+              "$kind": "Microsoft.BeginDialog",
               "$designer": {
-                "id": "qz3RLZ"
+                "id": "KPEegr"
               },
-              "activity": "${SendActivity_qz3RLZ()}"
+              "activityProcessed": true,
+              "dialog": "EnforceForSelf"
+            },
+            {
+              "$kind": "Microsoft.EndDialog",
+              "$designer": {
+                "id": "xvcqMU"
+              }
             }
           ]
         }

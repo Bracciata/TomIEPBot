@@ -1,8 +1,5 @@
 {
   "$kind": "Microsoft.MultiLanguageRecognizer",
   "id": "LUIS_OnBehalfOfOtherCreate",
-  "recognizers": {
-    "en-us": "OnBehalfOfOtherCreate.en-us.lu",
-    "": "OnBehalfOfOtherCreate.en-us.lu"
-  }
+  "recognizers": {}
 }

@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.LuisRecognizer",
+  "id": "LUIS_EnforceForSelf",
+  "applicationId": "=settings.luis.EnforceForSelf_en_us_lu.appId",
+  "version": "=settings.luis.EnforceForSelf_en_us_lu.version",
+  "endpoint": "=settings.luis.endpoint",
+  "endpointKey": "=settings.luis.endpointKey"
+}

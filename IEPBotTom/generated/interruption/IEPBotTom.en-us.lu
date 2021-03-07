@@ -18,6 +18,9 @@
 
 # TextInput_Response_VflLT1
 - Tommy
+- Monica
+- My name is George
+- Call me Dr. Duncan
 
 
 > # Entity definitions
@@ -30,6 +33,8 @@
 > # PREBUILT Entity definitions
 
 @ prebuilt personName
+
+@ prebuilt email
 
 
 > # Phrase list definitions

@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.MultiLanguageRecognizer",
+  "id": "LUIS_EnforceForSelf",
+  "recognizers": {
+    "en-us": "EnforceForSelf.en-us.lu",
+    "": "EnforceForSelf.en-us.lu"
+  }
+}

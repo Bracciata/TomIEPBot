@@ -1,28 +1,28 @@
 {
     "luis": {
-        "getFacultyEmail_en_us_lu": {
-            "appId": "421507d7-fb81-4a02-8d22-5c0b125ffe4d",
-            "version": "0.1"
-        },
         "getFacultyName_en_us_lu": {
             "appId": "02e6017c-85de-4956-9066-ef6b27a3f50c",
-            "version": "0.1"
+            "version": "0.7"
         },
-        "OnBehalfOfOther_en_us_lu": {
-            "appId": "3d9a3d49-e888-4b0c-89dc-4b032ebcf33b",
-            "version": "0.1"
+        "getFacultyEmail_en_us_lu": {
+            "appId": "421507d7-fb81-4a02-8d22-5c0b125ffe4d",
+            "version": "0.7"
         },
-        "OnBehalfOfOtherCreate_en_us_lu": {
-            "appId": "6d2a8acc-18af-4445-8c38-e7c1a3fc84de",
-            "version": "0.1"
-        },
-        "IEPBotTom_en_us_lu": {
-            "appId": "5d8d372a-a0e8-4ded-b9c3-f836e869fd22",
+        "EnforceForSelf_en_us_lu": {
+            "appId": "412a6b2e-2acc-42c1-872c-3a420a4394c8",
             "version": "0.1"
         },
         "OnBehalfOfOtherEnforce_en_us_lu": {
             "appId": "5eff89f0-227a-4b32-a091-462be3d507cc",
-            "version": "0.1"
+            "version": "0.2"
+        },
+        "OnBehalfOfOther_en_us_lu": {
+            "appId": "3d9a3d49-e888-4b0c-89dc-4b032ebcf33b",
+            "version": "0.4"
+        },
+        "IEPBotTom_en_us_lu": {
+            "appId": "5d8d372a-a0e8-4ded-b9c3-f836e869fd22",
+            "version": "0.4"
         }
     }
 }

@@ -3,7 +3,18 @@
     "rootDialog": true,
     "triggers": {
       "": [
-        "OnBehalfOfOther.en-us"
+        "OnBehalfOfOther.en-us",
+        "CreateForSelf.en-us",
+        "EnforceForSelf.en-us"
+      ]
+    }
+  },
+  "EnforceForSelf.en-us": {
+    "rootDialog": false,
+    "triggers": {
+      "": [
+        "getFacultyInformation.en-us",
+        "getFacultyInformation.en-us"
       ]
     }
   },
@@ -16,12 +27,12 @@
       ]
     }
   },
-  "OnBehalfOfOtherCreate.en-us": {
+  "OnBehalfOfOtherEnforce.en-us": {
     "rootDialog": false,
     "triggers": {
       "": [
-        "getFacultyName.en-us",
-        "getFacultyEmail.en-us"
+        "getFacultyInformation.en-us",
+        "getFacultyInformation.en-us"
       ]
     }
   },

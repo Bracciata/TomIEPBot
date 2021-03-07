@@ -52,42 +52,19 @@
           },
           "actions": [
             {
-              "$kind": "Microsoft.TextInput",
+              "$kind": "Microsoft.SendActivity",
               "$designer": {
-                "id": "jt2Yd3"
+                "id": "fnENaW"
               },
-              "disabled": false,
-              "maxTurnCount": 3,
-              "alwaysPrompt": true,
-              "allowInterruptions": true,
-              "prompt": "${TextInput_Prompt_jt2Yd3()}",
-              "unrecognizedPrompt": "",
-              "invalidPrompt": "${TextInput_InvalidPrompt_jt2Yd3()}",
-              "defaultValueResponse": "",
-              "property": "user.teachersName",
-              "value": "=@personName",
-              "validations": [
-                "@personName!=null"
-              ]
+              "activity": "${SendActivity_fnENaW()}"
             },
             {
-              "$kind": "Microsoft.TextInput",
+              "$kind": "Microsoft.BeginDialog",
               "$designer": {
-                "id": "r0PGKF"
+                "id": "shJuHD"
               },
-              "disabled": false,
-              "maxTurnCount": 3,
-              "alwaysPrompt": true,
-              "allowInterruptions": true,
-              "prompt": "${TextInput_Prompt_r0PGKF()}",
-              "unrecognizedPrompt": "",
-              "invalidPrompt": "${TextInput_InvalidPrompt_r0PGKF()}",
-              "defaultValueResponse": "",
-              "property": "user.teachersEmail",
-              "value": "=@email",
-              "validations": [
-                "@email!=null"
-              ]
+              "activityProcessed": true,
+              "dialog": "getFacultyInformation"
             },
             {
               "$kind": "Microsoft.SendActivity",
@@ -158,42 +135,19 @@
               ],
               "elseActions": [
                 {
-                  "$kind": "Microsoft.TextInput",
+                  "$kind": "Microsoft.SendActivity",
                   "$designer": {
-                    "id": "RteonF"
+                    "id": "wvzZFq"
                   },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": true,
-                  "allowInterruptions": true,
-                  "prompt": "${TextInput_Prompt_RteonF()}",
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "${TextInput_InvalidPrompt_RteonF()}",
-                  "defaultValueResponse": "",
-                  "property": "user.facultyName",
-                  "value": "=@personName",
-                  "validations": [
-                    "@personName!=null"
-                  ]
+                  "activity": "${SendActivity_wvzZFq()}"
                 },
                 {
-                  "$kind": "Microsoft.TextInput",
+                  "$kind": "Microsoft.BeginDialog",
                   "$designer": {
-                    "id": "ZObnWL"
+                    "id": "DrCAWS"
                   },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": true,
-                  "allowInterruptions": true,
-                  "prompt": "${TextInput_Prompt_ZObnWL()}",
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "${TextInput_InvalidPrompt_ZObnWL()}",
-                  "defaultValueResponse": "",
-                  "property": "user.facultyEmail",
-                  "value": "=@email",
-                  "validations": [
-                    "@email!=null"
-                  ]
+                  "activityProcessed": true,
+                  "dialog": "getFacultyInformation"
                 },
                 {
                   "$kind": "Microsoft.SendActivity",

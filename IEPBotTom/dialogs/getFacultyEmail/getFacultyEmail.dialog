@@ -28,7 +28,10 @@
           "prompt": "${TextInput_Prompt_XI3cvw()}",
           "invalidPrompt": "${TextInput_InvalidPrompt_XI3cvw()}",
           "value": "=@email",
-          "property": "user.facultyEmail"
+          "property": "user.facultyEmail",
+          "validations": [
+            "@email!=null"
+          ]
         },
         {
           "$kind": "Microsoft.EndDialog",
@@ -54,7 +57,7 @@
           "activity": "${SendActivity_8R9OXF()}"
         }
       ],
-      "condition": "user.facultyEmail==null"
+      "condition": "=#getHelpEmail.score>=0.8"
     }
   ],
   "generator": "getFacultyEmail.lg",

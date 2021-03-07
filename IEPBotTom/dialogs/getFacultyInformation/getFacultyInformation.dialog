@@ -1,0 +1,47 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "tvoGgy",
+    "name": "getFacultyInformation",
+    "description": "Gets all of the necessary faculty information."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "pX2Woh"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "0ivZSh"
+          },
+          "activityProcessed": true,
+          "dialog": "getFacultyName"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "2Rrqjv"
+          },
+          "activityProcessed": true,
+          "dialog": "getFacultyEmail"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "TXlVOt"
+          }
+        }
+      ]
+    }
+  ],
+  "generator": "getFacultyInformation.lg",
+  "recognizer": "getFacultyInformation.lu.qna",
+  "id": "getFacultyInformation"
+}

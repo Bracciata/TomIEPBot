@@ -1,0 +1,21 @@
+[import](common.lg)
+
+# ChoiceInput_Prompt_K1k9C1()
+- Have you already tried reaching out to your teacher to address your concerns?
+# ChoiceInput_Prompt_m0h0t1()
+-  The next step would be to reach out to somebody else at their school or somebody at the school district level. Have you already done this?
+# SendActivity_zHM1N1()
+- Since you have not been able to get the school district to properly follow ${user.kidsName}'s IEP I think you should reach out to a local Special Education Lawyer or Special Education Advocate. I hope this has helped you ${user.userName}.
+# SendActivity_aBmuo1()
+- Temp EMAIL ${user.facultyName} and ${user.facultyEmail}
+# SendActivity_nem4y1()
+- Temp Email Generation ${user.facultyEmail} and ${user.facultyName}
+# SendActivity_fnENa1()
+[Activity
+    Text = - In that case, I reccomend reaching out to start by reaching out to ${user.kidsName}'s teacher.
+]
+
+# SendActivity_wvzZF1()
+[Activity
+    Text = In that case, I will have you pick a different faculty member to reach out to.
+]

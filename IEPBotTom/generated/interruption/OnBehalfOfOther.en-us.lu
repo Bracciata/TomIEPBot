@@ -8,8 +8,10 @@
 > # Intent definitions
 
 # TextInput_Response_QhccFk
-- {@peronName}
-- My kid's name is {@peronName}
+- Tommy
+- Minnie
+- Their name is George
+- My kid's name is Monica
 
 
 > # Entity definitions
@@ -18,6 +20,8 @@
 > # PREBUILT Entity definitions
 
 @ prebuilt personName
+
+@ prebuilt email
 
 
 > # Phrase list definitions
@@ -28,6 +32,3 @@
 > # RegEx entities
 
 
-> # Pattern.Any entities
-
-@ patternany peronName

@@ -28,7 +28,10 @@
           "property": "user.facultyName",
           "value": "=@personName",
           "invalidPrompt": "${TextInput_InvalidPrompt_qdMWSe()}",
-          "prompt": "${TextInput_Prompt_qdMWSe()}"
+          "prompt": "${TextInput_Prompt_qdMWSe()}",
+          "validations": [
+            "@personName!=null"
+          ]
         },
         {
           "$kind": "Microsoft.EndDialog",
@@ -61,7 +64,7 @@
           "activity": "${SendActivity_yxS58K()}"
         }
       ],
-      "condition": "user.facultyName==null"
+      "condition": "=#getHelpName.score>=0.8"
     }
   ],
   "generator": "getFacultyName.lg",

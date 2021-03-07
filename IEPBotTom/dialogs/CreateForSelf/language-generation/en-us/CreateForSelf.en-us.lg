@@ -1,0 +1,38 @@
+[import](common.lg)
+
+# ChoiceInput_Prompt_JArBlD()
+- Have you tried to create an IEP for yourself before?
+# SendActivity_x5voFC()
+[Activity
+    Text = In that case, I recommend reaching out to your teacher first.
+]
+
+# SendActivity_EaVFoI()
+- TEMP EMAIL CREATION LINK name ${user.facultyName} and email ${user.facultyEmail}
+# ChoiceInput_Prompt_1ONQp9()
+- Was your request rejected by the school or ignroed?
+# ChoiceInput_Prompt_wTru2U()
+- Given that your IEP request was denied I would recommend the following options. First and most importantly you should get the IEP denial in writing so you can see why you were denied. After that you should request a complete, comprehensive education evaluation for yourself and I can help with that. Finally you can and should look into a 504 plan to see if you feel they may be a good fit for you.
+# SendActivity_h2bAGq()
+[Activity
+    Text = I can help you draft the email requesting written denial. You will need to select the faculty member you would like to reach out to.
+]
+
+# SendActivity_rINEDl()
+- TEMP: ${user.facultyName} and ${user.facultyEmail}
+# SendActivity_xkoKXt()
+[Activity
+    Text = I can help you draft the email requesting an evaluation. You will need to select a faculty member to reach out to.
+]
+
+# SendActivity_f4Du7O()
+- TEMP: email ${user.facultyName} and ${user.facultyEmail}
+# SendActivity_1bGfkM()
+- 504s are like IEPs but covered by different laws and not part of special education. You can learn more about them here https://www.understood.org/en/school-learning/special-services/504-plan/what-is-a-504-plan. I hope I was able to properly help you today.
+# SendActivity_PTau0b()
+[Activity
+    Text = Since your request was ignored I would recommend reaching out to somebody else. If you reached out to your teacher then try the principal, if you reached out to the principal then try somebody involved in the school district.
+]
+
+# SendActivity_84scia()
+- TEMP Email Generation name ${user.facultyName} and email ${user.facultyEmail}
