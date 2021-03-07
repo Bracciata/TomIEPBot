@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/eeb79da0-24eb-4d4c-b9ac-c5d8b4b9c80a/resourceGroups/IEPBotTomSite/providers/Microsoft.Web/sites/IEPBotTom",
+    "appService.deploySubpath": "."
+}
