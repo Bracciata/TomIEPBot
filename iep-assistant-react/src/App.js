@@ -57,18 +57,18 @@ class SendEmail extends React.Component {
   render() {
     if (this.state.path != "") {
       let email = letterDict[this.state.path];
-      email.replace('${user.facultyName}', this.state.facultyName);
-      email.replace('${user.userName}', this.state.requestorName);
-      email.replace('${user.childName}', this.state.childName);
+      email=email.replace('/${user.facultyName}/g', this.state.facultyName);
+      email=email.replace('/${user.userName}/g', this.state.requestorName);
+      email=email.replace('/${user.childName}/g', this.state.childName);
       let subject = "";
       switch (this.state.path) {
         case 'BehalfCreate':
           subject = 'Discussion of an IEP for ' + this.state.childName;
           break;
-        case 'BehalfRequestDenial':
+        case 'BehalfDenial':
           subject = 'Request of written IEP Denial for ' + this.state.childName;
           break;
-        case 'BehalfRequestEvaluation':
+        case 'BehalfExam':
           subject = 'Requesting a comprehnesive, education evaulation of ' + this.state.childName + ' for an IEP';
           break;
         case 'BehalfEnforce':
@@ -77,23 +77,40 @@ class SendEmail extends React.Component {
         case 'SelfCreate':
           subject = 'Discussion of an IEP for me';
           break;
-        case 'SelfRequestDenial':
+        case 'SelfDenial':
           subject = 'Request of written IEP Denial for myself';
           break;
-        case 'SelfRequestEvaluation':
+        case 'SelfExam':
           subject = 'Requesting a comprehnesive, education evaulation of myself for an IEP'
           break;
-        case 'Self':
+        case 'SelfEnforce':
           subject = 'Discussion of my IEP and its requirements';
           break;
       }
+      subject.replace(' ',"%20");
+      subject.replace(',',"%2C");
+      subject.replace('.',"%2E");
+      subject.replace("'","%27");
+      
+      email.replace(' ',"%20");
+      email.replace('\n',"%0D%0A");
+      email.replace('\t',"%09");
+      email.replace(',',"%2C");
+      email.replace('.',"%2E");
+      email.replace("'","%27");
+      email.replace("-","%2D");
+      email.replace("!","%21");
+      email.replace("/","%2F");
+      email.replace("(","%28");
+      email.replace(")","%29");
+
       return (
         <div className="App">
 
           <header className="App-header">
             <h1> Tom the IEP Assistant</h1>
           </header>
-          <a href="mailto:"></a></div>
+          <a href={"mailto:"+this.state.facultyEmail.trim()+"?subject="+subject+"&body="+email}>Open Email App</a></div>
       );
     } else {
       return (
