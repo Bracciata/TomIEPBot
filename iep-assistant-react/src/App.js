@@ -87,22 +87,22 @@ class SendEmail extends React.Component {
           subject = 'Discussion of my IEP and its requirements';
           break;
       }
-      subject.replace(' ',"%20");
-      subject.replace(',',"%2C");
-      subject.replace('.',"%2E");
-      subject.replace("'","%27");
+      subject=subject.replace('/ /g',"%20");
+      subject=subject.replace('/,/g',"%2C");
+      subject=subject.replace('/./g',"%2E");
+      subject=subject.replace("/'/g","%27");
       
-      email.replace(' ',"%20");
-      email.replace('\n',"%0D%0A");
-      email.replace('\t',"%09");
-      email.replace(',',"%2C");
-      email.replace('.',"%2E");
-      email.replace("'","%27");
-      email.replace("-","%2D");
-      email.replace("!","%21");
-      email.replace("/","%2F");
-      email.replace("(","%28");
-      email.replace(")","%29");
+      email=email.replace('/ /g',"%20");
+      email= email.replace('/\n/g',"%0D%0A");
+      email= email.replace('/\t/g',"%09");
+      email=   email.replace('/,/g',"%2C");
+      email=   email.replace('/./g',"%2E");
+      email=   email.replace("/'/g","%27");
+      email=  email.replace("/-/g","%2D");
+      email=     email.replace("/!/g","%21");
+      email=    email.replace("///g","%2F");
+      email=    email.replace("/(/g","%28");
+      email=     email.replace("/)/g","%29");
 
       return (
         <div className="App">
