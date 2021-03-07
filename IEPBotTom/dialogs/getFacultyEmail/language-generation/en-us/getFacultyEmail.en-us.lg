@@ -1,0 +1,16 @@
+[import](common.lg)
+
+# TextInput_Prompt_XI3cvw()
+[Activity
+    Text = Can I get ${user.facultyName}'s email?
+]
+
+# SendActivity_8R9OXF()
+[Activity
+    Text = I recommend looking for their email on the school website, then the school district's website, and then calling the school and asking for it.
+]
+
+# TextInput_InvalidPrompt_XI3cvw()
+[Activity
+    Text = Sorry I missed that. Can you repeat their email for me?
+]

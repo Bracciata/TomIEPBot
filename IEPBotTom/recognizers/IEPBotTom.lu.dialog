@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.MultiLanguageRecognizer",
+  "id": "LUIS_IEPBotTom",
+  "recognizers": {
+    "en-us": "IEPBotTom.en-us.lu",
+    "": "IEPBotTom.en-us.lu"
+  }
+}

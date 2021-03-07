@@ -1,0 +1,221 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "zl9vgG",
+    "name": "OnBehalfOfOtherEnforce",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "FJQPYY"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "K1k9Cz"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ChoiceInput_Prompt_K1k9Cz()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "choices": [
+            "Yes",
+            "No"
+          ],
+          "property": "user.hasReachedOutToTeacher",
+          "recognizerOptions": {
+            "recognizeOrdinals": true
+          }
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "pA85Px"
+          },
+          "actions": [
+            {
+              "$kind": "Microsoft.TextInput",
+              "$designer": {
+                "id": "jt2Yd3"
+              },
+              "disabled": false,
+              "maxTurnCount": 3,
+              "alwaysPrompt": true,
+              "allowInterruptions": true,
+              "prompt": "${TextInput_Prompt_jt2Yd3()}",
+              "unrecognizedPrompt": "",
+              "invalidPrompt": "${TextInput_InvalidPrompt_jt2Yd3()}",
+              "defaultValueResponse": "",
+              "property": "user.teachersName",
+              "value": "=@personName",
+              "validations": [
+                "@personName!=null"
+              ]
+            },
+            {
+              "$kind": "Microsoft.TextInput",
+              "$designer": {
+                "id": "r0PGKF"
+              },
+              "disabled": false,
+              "maxTurnCount": 3,
+              "alwaysPrompt": true,
+              "allowInterruptions": true,
+              "prompt": "${TextInput_Prompt_r0PGKF()}",
+              "unrecognizedPrompt": "",
+              "invalidPrompt": "${TextInput_InvalidPrompt_r0PGKF()}",
+              "defaultValueResponse": "",
+              "property": "user.teachersEmail",
+              "value": "=@email",
+              "validations": [
+                "@email!=null"
+              ]
+            },
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "aBmuoa"
+              },
+              "activity": "${SendActivity_aBmuoa()}"
+            },
+            {
+              "$kind": "Microsoft.EndDialog",
+              "$designer": {
+                "id": "gRGw8l"
+              }
+            }
+          ],
+          "condition": "indexOf(toLower(user.hasReachedOutToTeacher),'y')==-1",
+          "elseActions": [
+            {
+              "$kind": "Microsoft.ChoiceInput",
+              "$designer": {
+                "id": "m0h0tq"
+              },
+              "defaultLocale": "en-us",
+              "disabled": false,
+              "maxTurnCount": 3,
+              "alwaysPrompt": false,
+              "allowInterruptions": false,
+              "prompt": "${ChoiceInput_Prompt_m0h0tq()}",
+              "unrecognizedPrompt": "",
+              "invalidPrompt": "",
+              "defaultValueResponse": "",
+              "choiceOptions": {
+                "includeNumbers": true,
+                "inlineOrMore": ", or ",
+                "inlineOr": " or ",
+                "inlineSeparator": ", "
+              },
+              "choices": [
+                "Yes",
+                "No"
+              ],
+              "property": "user.hasReachedOutToOtherFaculty",
+              "recognizerOptions": {
+                "recognizeOrdinals": true,
+                "recognizeNumbers": true
+              }
+            },
+            {
+              "$kind": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "R8X5mW"
+              },
+              "condition": "indexOf(toLower(user.hasReachedOutToOtherFaculty),'y')!=-1",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "zHM1NM"
+                  },
+                  "activity": "${SendActivity_zHM1NM()}"
+                },
+                {
+                  "$kind": "Microsoft.EndDialog",
+                  "$designer": {
+                    "id": "EiknNU"
+                  }
+                }
+              ],
+              "elseActions": [
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "RteonF"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": true,
+                  "allowInterruptions": true,
+                  "prompt": "${TextInput_Prompt_RteonF()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "${TextInput_InvalidPrompt_RteonF()}",
+                  "defaultValueResponse": "",
+                  "property": "user.facultyName",
+                  "value": "=@personName",
+                  "validations": [
+                    "@personName!=null"
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "ZObnWL"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": true,
+                  "allowInterruptions": true,
+                  "prompt": "${TextInput_Prompt_ZObnWL()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "${TextInput_InvalidPrompt_ZObnWL()}",
+                  "defaultValueResponse": "",
+                  "property": "user.facultyEmail",
+                  "value": "=@email",
+                  "validations": [
+                    "@email!=null"
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "nem4yH"
+                  },
+                  "activity": "${SendActivity_nem4yH()}"
+                },
+                {
+                  "$kind": "Microsoft.EndDialog",
+                  "$designer": {
+                    "id": "FeEeJF"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "OnBehalfOfOtherEnforce.lg",
+  "recognizer": "OnBehalfOfOtherEnforce.lu.qna",
+  "id": "OnBehalfOfOtherEnforce"
+}

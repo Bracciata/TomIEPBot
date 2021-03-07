@@ -1,0 +1,70 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "g2wHv4",
+    "name": "getFacultyName",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "kzkHjR"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "qdMWSe"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": true,
+          "allowInterruptions": true,
+          "property": "user.facultyName",
+          "value": "=@personName",
+          "invalidPrompt": "${TextInput_InvalidPrompt_qdMWSe()}",
+          "prompt": "${TextInput_Prompt_qdMWSe()}"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "RxFm3G"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "lqYgl8",
+        "name": "getHelpName"
+      },
+      "intent": "getHelpName",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "R0ttf0"
+          },
+          "activity": "${SendActivity_R0ttf0()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "yxS58K"
+          },
+          "activity": "${SendActivity_yxS58K()}"
+        }
+      ],
+      "condition": "user.facultyName==null"
+    }
+  ],
+  "generator": "getFacultyName.lg",
+  "recognizer": "getFacultyName.lu.qna",
+  "id": "getFacultyName"
+}

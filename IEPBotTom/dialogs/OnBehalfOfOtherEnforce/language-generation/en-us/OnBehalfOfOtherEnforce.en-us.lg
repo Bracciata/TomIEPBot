@@ -1,0 +1,29 @@
+[import](common.lg)
+
+# ChoiceInput_Prompt_K1k9Cz()
+- Have you already tried reaching out to ${user.kidsName}'s teacher to address your concerns?
+# TextInput_Prompt_ceEWPE()
+# TextInput_Prompt_jt2Yd3()
+- In that case, I reccomend reaching out to start by reaching out to ${user.kidsName}'s teacher. What is their name?
+# ChoiceInput_Prompt_m0h0tq()
+-  The next step would be to reach out to somebody else at their school or somebody at the school district level. Have you already done this?
+# SendActivity_zHM1NM()
+- Since you have not been able to get the school district to properly follow ${user.kidsName}'s IEP I think you should reach out to a local Special Education Lawyer or Special Education Advocate. I hope this has helped you ${user.userName}.
+# TextInput_Prompt_r0PGKF()
+- Thank you ${user.userName}. My last question for you is can I get ${user.teachersName}'s email?
+# TextInput_InvalidPrompt_jt2Yd3()
+- Sorry I did not catch that, what is their teacher's name?
+# TextInput_InvalidPrompt_r0PGKF()
+- Sorry I did not catch that, what is their teacher's email?
+# SendActivity_aBmuoa()
+- Temp EMAIL ${user.teachersName} and ${user.teachersEmail}
+# TextInput_Prompt_RteonF()
+- ${user.userName} can I get the name of the faculty member you are want to escalate your concerns too.
+# TextInput_InvalidPrompt_RteonF()
+- Sorry I did not catch that, what is their name?
+# TextInput_Prompt_ZObnWL()
+- My last question for you is can I get ${user.facultyName}'s email?
+# TextInput_InvalidPrompt_ZObnWL()
+- I am sorry I did not catch that. Can you tell me their email again.
+# SendActivity_nem4yH()
+- Temp Email Generation ${user.facultyEmail} and ${user.facultyName}

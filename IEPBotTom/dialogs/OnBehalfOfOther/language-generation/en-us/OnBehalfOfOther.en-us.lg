@@ -1,0 +1,10 @@
+[import](common.lg)
+
+# TextInput_Prompt_QhccFk()
+- What is the name of the child you are reaching out on behalf of?
+# ChoiceInput_Prompt_JJ3PSu()
+- Thank you ${user.userName}. Are you hoping to set up an IEP for ${user.kidsName} or get an existing one to be followed?
+# SendActivity_oamwNn()
+- CREATION FOR REAL HOMIE
+# TextInput_InvalidPrompt_QhccFk()
+- Sorry I did not catch that, what is your kid's name?

@@ -1,0 +1,42 @@
+
+> LUIS application information
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 3.2.0
+
+
+> # Intent definitions
+
+# ChoiceInput_Response_t8t0XB
+- \#ChoiceInput_Response_t8t0XB
+- {@self=Myself}
+- {@notSelf=my child}
+- I am calling on behalf of {@notSelf=my child}
+- I am reaching out on behalf of {@notSelf=my child}
+- I am reaching out for {@self=Myself}
+
+
+# TextInput_Response_VflLT1
+- Tommy
+
+
+> # Entity definitions
+
+@ ml self
+
+@ ml notSelf
+
+
+> # PREBUILT Entity definitions
+
+@ prebuilt personName
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+

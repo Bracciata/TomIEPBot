@@ -1,0 +1,53 @@
+
+> LUIS application information
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 3.2.0
+
+
+> # Intent definitions
+
+# TextInput_Response_BuKWFJ
+- {@peronName}
+- Their name is {@peronName}
+
+
+# TextInput_Response_CCNatf
+- {@email}
+- Their email is {@email}
+
+
+# TextInput_Response_mMrFnw
+- lets go with {@peronName}
+
+
+# TextInput_Response_n59hOk
+
+
+# TextInput_Response_MwLejs
+
+
+# TextInput_Response_kgNVe6
+
+
+> # Entity definitions
+
+
+> # PREBUILT Entity definitions
+
+@ prebuilt personName
+
+@ prebuilt email
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+
+> # Pattern.Any entities
+
+@ patternany peronName

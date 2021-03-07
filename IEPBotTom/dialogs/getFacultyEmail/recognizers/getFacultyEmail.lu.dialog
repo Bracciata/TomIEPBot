@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.MultiLanguageRecognizer",
+  "id": "LUIS_getFacultyEmail",
+  "recognizers": {
+    "en-us": "getFacultyEmail.en-us.lu",
+    "": "getFacultyEmail.en-us.lu"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "IEPBotTom.en-us": {
+    "rootDialog": true,
+    "triggers": {
+      "": [
+        "OnBehalfOfOther.en-us"
+      ]
+    }
+  },
+  "OnBehalfOfOther.en-us": {
+    "rootDialog": false,
+    "triggers": {
+      "": [
+        "OnBehalfOfOtherCreate.en-us",
+        "OnBehalfOfOtherEnforce.en-us"
+      ]
+    }
+  },
+  "OnBehalfOfOtherCreate.en-us": {
+    "rootDialog": false,
+    "triggers": {
+      "": [
+        "getFacultyName.en-us",
+        "getFacultyEmail.en-us"
+      ]
+    }
+  },
+  "getFacultyEmail.en-us": {
+    "rootDialog": false,
+    "triggers": {
+      "getHelpEmail": []
+    }
+  },
+  "getFacultyName.en-us": {
+    "rootDialog": false,
+    "triggers": {
+      "getHelpName": []
+    }
+  }
+}

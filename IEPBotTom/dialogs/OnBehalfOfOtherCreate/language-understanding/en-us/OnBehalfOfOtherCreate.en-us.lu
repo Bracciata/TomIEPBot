@@ -1,0 +1,45 @@
+
+# TextInput_Response_BuKWFJ
+-{peronName}
+- Their name is {peronName}
+> entity definitions:
+@ prebuilt personName
+
+
+# TextInput_Response_CCNatf
+- {email}
+- Their email is {email}
+> entity definitions:
+@ prebuilt email
+
+
+# TextInput_Response_mMrFnw
+- lets go with {peronName}
+-{peronName}
+- Their name is {peronName}
+> entity definitions:
+@ prebuilt personName
+
+
+
+# TextInput_Response_n59hOk
+- {email}
+- Their email is {email}
+> entity definitions:
+@ prebuilt email
+
+
+# TextInput_Response_MwLejs
+- lets go with {peronName}
+-{peronName}
+- Their name is {peronName}
+> entity definitions:
+@ prebuilt personName
+
+
+
+# TextInput_Response_kgNVe6
+- {email}
+- Their email is {email}
+> entity definitions:
+@ prebuilt email

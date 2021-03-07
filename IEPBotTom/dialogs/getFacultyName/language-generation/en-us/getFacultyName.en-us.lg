@@ -1,0 +1,25 @@
+[import](common.lg)
+
+# SendActivity_yxS58K()
+[Activity
+    Text = Since you are unsure of their name, I would recommend looking for it on the school or school district's website, and if neither of those options works then call the school and ask for it.
+]
+
+# TextInput_Prompt_qdMWSe()
+[Activity
+    Text = What is their name?
+]
+
+# TextInput_InvalidPrompt_qdMWSe()
+[Activity
+    Text = ${TextInput_InvalidPrompt_qdMWSe_text()}
+]
+
+# TextInput_InvalidPrompt_qdMWSe_text()
+- I misseed that. What is their name?
+- Sorry, I must have misunderstood. What is their name?
+- I did not catch that. Can you repeat their name for me?
+# SendActivity_R0ttf0()
+[Activity
+    Text = The faculty name is ${user.facultyName}
+]

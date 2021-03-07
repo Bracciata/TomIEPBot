@@ -1,0 +1,113 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "Wq6e2b",
+    "name": "OnBehalfOfOther",
+    "description": "The new conversation is for when talking to a person representing another person"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "tWd4Vo"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "QhccFk"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": true,
+          "allowInterruptions": false,
+          "prompt": "${TextInput_Prompt_QhccFk()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "${TextInput_InvalidPrompt_QhccFk()}",
+          "defaultValueResponse": "",
+          "property": "user.kidsName",
+          "value": "=@personName",
+          "validations": [
+            "@personName!=null"
+          ]
+        },
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "JJ3PSu"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": true,
+          "allowInterruptions": false,
+          "prompt": "${ChoiceInput_Prompt_JJ3PSu()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "choices": [
+            "Create",
+            "Enforce"
+          ],
+          "property": "user.createOrFollow",
+          "recognizerOptions": {
+            "recognizeOrdinals": true,
+            "recognizeNumbers": true
+          }
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "yrgctW"
+          },
+          "condition": "indexOf(toLower(user.createOrFollow),'create')!=-1",
+          "actions": [
+            {
+              "$kind": "Microsoft.BeginDialog",
+              "$designer": {
+                "id": "t6ICmu"
+              },
+              "activityProcessed": true,
+              "dialog": "OnBehalfOfOtherCreate"
+            },
+            {
+              "$kind": "Microsoft.EndDialog",
+              "$designer": {
+                "id": "mquGNd"
+              }
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.BeginDialog",
+              "$designer": {
+                "id": "0IpxTn"
+              },
+              "activityProcessed": true,
+              "dialog": "OnBehalfOfOtherEnforce"
+            },
+            {
+              "$kind": "Microsoft.EndDialog",
+              "$designer": {
+                "id": "CnNxYF"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "OnBehalfOfOther.lg",
+  "recognizer": "OnBehalfOfOther.lu.qna",
+  "id": "OnBehalfOfOther"
+}

@@ -1,0 +1,63 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "eb9wWj",
+    "name": "getFacultyEmail",
+    "description": "Get a faculty member of a passed roles email."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "Fhyyjx"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "XI3cvw"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": true,
+          "allowInterruptions": true,
+          "prompt": "${TextInput_Prompt_XI3cvw()}",
+          "invalidPrompt": "${TextInput_InvalidPrompt_XI3cvw()}",
+          "value": "=@email",
+          "property": "user.facultyEmail"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "DDMJS0"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "m5QLnF",
+        "name": "getHelpEmail"
+      },
+      "intent": "getHelpEmail",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "8R9OXF"
+          },
+          "activity": "${SendActivity_8R9OXF()}"
+        }
+      ],
+      "condition": "user.facultyEmail==null"
+    }
+  ],
+  "generator": "getFacultyEmail.lg",
+  "recognizer": "getFacultyEmail.lu.qna",
+  "id": "getFacultyEmail"
+}

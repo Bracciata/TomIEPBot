@@ -1,0 +1,19 @@
+[import](common.lg)
+
+
+# ChoiceInput_Prompt_t8t0XB()
+- Hello ${user.userName}. May I ask if you are reaching out on behalf of yourself or a child?
+# TextInput_Prompt_VflLT1()
+- Hello my name is Tom! I am here to help you with your IEP concerns.  May I get your name?
+# TextInput_InvalidPrompt_VflLT1()
+- Sorry, I did not catch that. What is your name?
+# ChoiceInput_Prompt_reM1e7()
+- Thank you ${user.userName}. Are you hoping to set up an IEP for or get an existing one to be followed?
+# SendActivity_eIu9YF()
+-  Create TRACK
+# SendActivity_qz3RLZ()
+- Enforcement Track
+# SendActivity_9IDzgk()
+-
+# SendActivity_Welcome()
+-
