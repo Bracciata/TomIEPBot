@@ -127,7 +127,7 @@ path:values.path});
           <header className="App-header">
             <h1> Tom the IEP Assistant</h1>
           </header>
-          <a href={"mailto:" + this.state.facultyEmail.trim() + "?subject=" + subject + "&body=" + email}>Open Email App</a></div>
+          <a href={"mailto:" + this.state.facultyEmail.trim() + "?subject=" + subject + "&body=" + email}   ref={this.openLink}>Open Email App</a></div>
       );
     } else {
       return (
@@ -139,6 +139,9 @@ path:values.path});
           <h2> Prcoessing the request now.</h2></div>
       );
     }
+  }
+  openLink(el) {
+    el.click()
   }
 }
 
