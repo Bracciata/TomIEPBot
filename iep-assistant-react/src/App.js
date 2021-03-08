@@ -53,7 +53,8 @@ class SendEmail extends React.Component {
     const values = queryString.parse(this.props.location.search)
    this.setState({childName:values.childName,
   requesterName:values.requesterName,
-facultyName:values.facultyName,facultyEmail:values.facultyEmail,
+facultyName:values.facultyName,
+facultyEmail:values.facultyEmail,
 path:values.path}); 
    // "top"
     console.log(values.origin) // "im"
@@ -63,11 +64,16 @@ path:values.path});
       let email = letterDict[this.state.path];
       let prevEmail="";
       console.log(email);
+      
       while(email!=prevEmail){
         prevEmail=email;
         email = email.replace("${user.facultyName}", this.state.facultyName);
         email = email.replace("${user.userName}", this.state.requesterName);
         email = email.replace("${user.childName}", this.state.childName);
+      }
+      prevEmail="";
+      while(email!=prevEmail){
+        prevEmail=email;
         email = email.replace(' ', "%20");
         email = email.replace('\n', "%0D%0A");
         email = email.replace('\t', "%09");
@@ -110,6 +116,7 @@ path:values.path});
       }
       let prevSubject="";
       while(subject!=prevSubject){
+        prevSubject=subject;
         subject = subject.replace(' ', "%20");
         subject = subject.replace(',', "%2C");
         subject = subject.replace('.', "%2E");
