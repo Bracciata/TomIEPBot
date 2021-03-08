@@ -31,7 +31,7 @@ function App() {
     "min-width": "250px",
     "width": "100%",
     "min-height": "500px",
-    "height": "100%"
+    "flex":"1"
   };
   return (
     <div className="App">
