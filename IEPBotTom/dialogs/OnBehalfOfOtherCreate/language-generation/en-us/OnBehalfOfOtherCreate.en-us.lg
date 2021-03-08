@@ -6,9 +6,6 @@
 - Was your request rejected by the school or ignroed?
 # ChoiceInput_Prompt_vZeGLH()
 - Given that ${user.kidsName} IEP request was denied I would recommend the following options. First and most importantly you should get the IEP denial in writing so you can see why your child was denied. After that you should request a complete, comprehensive education evaluation for your child and I can help with that. Finally you can and should look into a 504 plan to see if they are a good fit for ${user.kidsName}.
-# SendActivity_rRiyXS()
-- TEMP EMAIL CREATION LINK name ${user.facultyName} and email ${user.facultyEmail}
-
 # TextInput_Prompt_xXsq5a()
 - In that case may I get your child's name too?
 # TextInput_InvalidPrompt_xXsq5a()
@@ -17,13 +14,6 @@
 - In that case may I get your child's name too?
 # TextInput_InvalidPrompt_eBRskU()
 - Sorry, what is your child's name?
-# SendActivity_0SxvwX()
-- TEMP Email Generation name ${user.facultyName} and email ${user.facultyEmail}
-
-# SendActivity_Zgujgi()
-- TEMP: ${user.facultyName} and ${user.facultyEmail}
-# SendActivity_lqhSa6()
-- TEMP: email ${user.facultyName} and ${user.facultyEmail}
 # SendActivity_WMcBDY()
 - 504s are like IEPs but covered by different laws and not part of special education. You can learn more about them here https://www.understood.org/en/school-learning/special-services/504-plan/what-is-a-504-plan. I hope I was able to properly help you today.
 # SendActivity_YKO7Gn()

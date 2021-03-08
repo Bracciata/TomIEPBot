@@ -69,11 +69,20 @@
               "dialog": "getFacultyInformation"
             },
             {
-              "$kind": "Microsoft.SendActivity",
+              "$kind": "Microsoft.SetProperty",
               "$designer": {
-                "id": "rRiyXS"
+                "id": "E9zkGY"
               },
-              "activity": "${SendActivity_rRiyXS()}"
+              "property": "user.path",
+              "value": "BehalfCreate"
+            },
+            {
+              "$kind": "Microsoft.BeginDialog",
+              "$designer": {
+                "id": "MjP0ul"
+              },
+              "activityProcessed": true,
+              "dialog": "GenerateEmailDialog"
             },
             {
               "$kind": "Microsoft.EndDialog",
@@ -174,11 +183,20 @@
                       "dialog": "getFacultyInformation"
                     },
                     {
-                      "$kind": "Microsoft.SendActivity",
+                      "$kind": "Microsoft.SetProperty",
                       "$designer": {
-                        "id": "Zgujgi"
+                        "id": "yIYoDR"
                       },
-                      "activity": "${SendActivity_Zgujgi()}"
+                      "property": "user.path",
+                      "value": "BehalfDenial"
+                    },
+                    {
+                      "$kind": "Microsoft.BeginDialog",
+                      "$designer": {
+                        "id": "zSRf4q"
+                      },
+                      "activityProcessed": true,
+                      "dialog": "GenerateEmailDialog"
                     },
                     {
                       "$kind": "Microsoft.EndDialog",
@@ -211,11 +229,20 @@
                           "dialog": "getFacultyInformation"
                         },
                         {
-                          "$kind": "Microsoft.SendActivity",
+                          "$kind": "Microsoft.SetProperty",
                           "$designer": {
-                            "id": "lqhSa6"
+                            "id": "cZJigD"
                           },
-                          "activity": "${SendActivity_lqhSa6()}"
+                          "property": "user.path",
+                          "value": "BehalfExam"
+                        },
+                        {
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "BSeo8m"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "GenerateEmailDialog"
                         },
                         {
                           "$kind": "Microsoft.EndDialog",
@@ -254,25 +281,26 @@
                 {
                   "$kind": "Microsoft.BeginDialog",
                   "$designer": {
-                    "id": "6muZfj"
+                    "id": "yoPdBw"
                   },
                   "activityProcessed": true,
-                  "dialog": "getFacultyName"
+                  "dialog": "getFacultyInformation"
+                },
+                {
+                  "$kind": "Microsoft.SetProperty",
+                  "$designer": {
+                    "id": "JAcOmF"
+                  },
+                  "property": "user.path",
+                  "value": "BehalfCreate"
                 },
                 {
                   "$kind": "Microsoft.BeginDialog",
                   "$designer": {
-                    "id": "ZTwMBf"
+                    "id": "5hPNOb"
                   },
                   "activityProcessed": true,
-                  "dialog": "getFacultyEmail"
-                },
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
-                    "id": "0SxvwX"
-                  },
-                  "activity": "${SendActivity_0SxvwX()}"
+                  "dialog": "GenerateEmailDialog"
                 },
                 {
                   "$kind": "Microsoft.EndDialog",

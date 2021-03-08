@@ -13,3 +13,7 @@
 -
 # SendActivity_Welcome()
 -
+# SendActivity_hZiEVH()
+[Activity
+    Text = ${uriComponent(user.testing)}
+]

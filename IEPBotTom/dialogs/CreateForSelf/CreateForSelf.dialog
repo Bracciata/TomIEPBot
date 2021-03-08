@@ -69,11 +69,20 @@
               "dialog": "getFacultyInformation"
             },
             {
-              "$kind": "Microsoft.SendActivity",
+              "$kind": "Microsoft.SetProperty",
               "$designer": {
-                "id": "EaVFoI"
+                "id": "KOLWYd"
               },
-              "activity": "${SendActivity_EaVFoI()}"
+              "property": "user.path",
+              "value": "SelfCreate"
+            },
+            {
+              "$kind": "Microsoft.BeginDialog",
+              "$designer": {
+                "id": "50X0rr"
+              },
+              "activityProcessed": true,
+              "dialog": "GenerateEmailDialog"
             },
             {
               "$kind": "Microsoft.EndDialog",
@@ -174,11 +183,20 @@
                       "dialog": "getFacultyInformation"
                     },
                     {
-                      "$kind": "Microsoft.SendActivity",
+                      "$kind": "Microsoft.SetProperty",
                       "$designer": {
-                        "id": "rINEDl"
+                        "id": "b36FHU"
                       },
-                      "activity": "${SendActivity_rINEDl()}"
+                      "property": "user.path",
+                      "value": "SelfDenial"
+                    },
+                    {
+                      "$kind": "Microsoft.BeginDialog",
+                      "$designer": {
+                        "id": "WlQV4o"
+                      },
+                      "activityProcessed": true,
+                      "dialog": "GenerateEmailDialog"
                     },
                     {
                       "$kind": "Microsoft.EndDialog",
@@ -211,11 +229,20 @@
                           "dialog": "getFacultyInformation"
                         },
                         {
-                          "$kind": "Microsoft.SendActivity",
+                          "$kind": "Microsoft.SetProperty",
                           "$designer": {
-                            "id": "f4Du7O"
+                            "id": "WVrB4t"
                           },
-                          "activity": "${SendActivity_f4Du7O()}"
+                          "property": "user.path",
+                          "value": "SelfExam"
+                        },
+                        {
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "Oqnukb"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "GenerateEmailDialog"
                         },
                         {
                           "$kind": "Microsoft.EndDialog",
@@ -260,11 +287,20 @@
                   "dialog": "getFacultyInformation"
                 },
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SetProperty",
                   "$designer": {
-                    "id": "84scia"
+                    "id": "nTBSP3"
                   },
-                  "activity": "${SendActivity_84scia()}"
+                  "property": "user.path",
+                  "value": "SelfCreate"
+                },
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "qyTDMV"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "GenerateEmailDialog"
                 },
                 {
                   "$kind": "Microsoft.EndDialog",

@@ -17,6 +17,14 @@
       },
       "actions": [
         {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "3Vx0v6"
+          },
+          "property": "user.path",
+          "value": "SelfEnforce"
+        },
+        {
           "$kind": "Microsoft.ChoiceInput",
           "$designer": {
             "id": "DSaFCo"
@@ -67,11 +75,12 @@
               "dialog": "getFacultyInformation"
             },
             {
-              "$kind": "Microsoft.SendActivity",
+              "$kind": "Microsoft.BeginDialog",
               "$designer": {
-                "id": "r79Lje"
+                "id": "3BmZrF"
               },
-              "activity": "${SendActivity_r79Lje()}"
+              "activityProcessed": true,
+              "dialog": "GenerateEmailDialog"
             },
             {
               "$kind": "Microsoft.EndDialog",
@@ -150,11 +159,12 @@
                   "dialog": "getFacultyInformation"
                 },
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.BeginDialog",
                   "$designer": {
-                    "id": "Q0GzfE"
+                    "id": "0yal4f"
                   },
-                  "activity": "${SendActivity_Q0GzfE()}"
+                  "activityProcessed": true,
+                  "dialog": "GenerateEmailDialog"
                 },
                 {
                   "$kind": "Microsoft.EndDialog",

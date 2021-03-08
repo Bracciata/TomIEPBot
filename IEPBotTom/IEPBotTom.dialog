@@ -17,6 +17,21 @@
       },
       "actions": [
         {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "3VbrlD"
+          },
+          "property": "user.testing",
+          "value": "Tommy braccia"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "hZiEVH"
+          },
+          "activity": "${SendActivity_hZiEVH()}"
+        },
+        {
           "$kind": "Microsoft.TextInput",
           "$designer": {
             "id": "VflLT1"
@@ -88,6 +103,14 @@
             }
           ],
           "condition": "user.forSelf==\"Myself\""
+        },
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "5cTFLI"
+          },
+          "property": "user.childName",
+          "value": "='NotForChild'"
         },
         {
           "$kind": "Microsoft.ChoiceInput",

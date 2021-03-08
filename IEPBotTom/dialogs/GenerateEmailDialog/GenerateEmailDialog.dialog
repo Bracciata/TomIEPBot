@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "suC6Sa",
+    "name": "GenerateEmailDialog",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "3KZ09S"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "h5Hmg7"
+          },
+          "activity": "${SendActivity_h5Hmg7()}"
+        }
+      ]
+    }
+  ],
+  "generator": "GenerateEmailDialog.lg",
+  "recognizer": "GenerateEmailDialog.lu.qna",
+  "id": "GenerateEmailDialog"
+}

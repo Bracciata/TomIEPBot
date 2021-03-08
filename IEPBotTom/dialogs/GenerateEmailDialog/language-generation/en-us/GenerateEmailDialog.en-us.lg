@@ -1,0 +1,7 @@
+[import](common.lg)
+
+# SendActivity_h5Hmg7()
+[Activity
+    Text = Click the following link so I can generate your email for you: https://iepbottom.azurewebsites.net/sendEmail?childName=${uriComponent(user.kidsName)}&requesterName=${uriComponent(user.userName)}&facultyName=${uriComponent(user.facultyName)}&facultyEmail=${uriComponent(user.facultyEmail)}&path=${uriComponent(user.path)}
+]
+
