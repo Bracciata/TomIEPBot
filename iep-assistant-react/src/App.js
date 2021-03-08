@@ -47,19 +47,27 @@ function App() {
 class SendEmail extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { childName: "", requestorName: "", facultyName: "", facultyEmail: "", path: "" };
+    this.state = { childName: "", requesterName: "", facultyName: "", facultyEmail: "", path: "" };
   }
   componentDidMount() {
     const values = queryString.parse(this.props.location.search)
-    console.log(values.filter) // "top"
+   this.setState({childName:values.childName,
+  requesterName:values.requesterName,
+facultyName:values.facultyName,facultyEmail:values.facultyEmail,
+path:values.path}); 
+   // "top"
     console.log(values.origin) // "im"
   }
   render() {
     if (this.state.path != "") {
       let email = letterDict[this.state.path];
-      email=email.replace('/${user.facultyName}/g', this.state.facultyName);
-      email=email.replace('/${user.userName}/g', this.state.requestorName);
-      email=email.replace('/${user.childName}/g', this.state.childName);
+      let prevEmail="";
+      while(email!=prevEmail){
+        prevEmail=email;
+        email = email.replace("${user.facultyName}", this.state.facultyName);
+        email = email.replace("${user.userName}", this.state.requesterName);
+        email = email.replace("${user.childName}", this.state.childName);
+      }
       let subject = "";
       switch (this.state.path) {
         case 'BehalfCreate':
@@ -87,22 +95,22 @@ class SendEmail extends React.Component {
           subject = 'Discussion of my IEP and its requirements';
           break;
       }
-      subject=subject.replace('/ /g',"%20");
-      subject=subject.replace('/,/g',"%2C");
-      subject=subject.replace('/./g',"%2E");
-      subject=subject.replace("/'/g","%27");
-      
-      email=email.replace('/ /g',"%20");
-      email= email.replace('/\n/g',"%0D%0A");
-      email= email.replace('/\t/g',"%09");
-      email=   email.replace('/,/g',"%2C");
-      email=   email.replace('/./g',"%2E");
-      email=   email.replace("/'/g","%27");
-      email=  email.replace("/-/g","%2D");
-      email=     email.replace("/!/g","%21");
-      email=    email.replace("///g","%2F");
-      email=    email.replace("/(/g","%28");
-      email=     email.replace("/)/g","%29");
+      subject = subject.replace('/ /g', "%20");
+      subject = subject.replace('/,/g', "%2C");
+      subject = subject.replace('/./g', "%2E");
+      subject = subject.replace("/'/g", "%27");
+
+      email = email.replace('/ /g', "%20");
+      email = email.replace('/\n/g', "%0D%0A");
+      email = email.replace('/\t/g', "%09");
+      email = email.replace('/,/g', "%2C");
+      email = email.replace('/./g', "%2E");
+      email = email.replace("/'/g", "%27");
+      email = email.replace("/-/g", "%2D");
+      email = email.replace("/!/g", "%21");
+      email = email.replace("///g", "%2F");
+      email = email.replace("/(/g", "%28");
+      email = email.replace("/)/g", "%29");
 
       return (
         <div className="App">
@@ -110,7 +118,7 @@ class SendEmail extends React.Component {
           <header className="App-header">
             <h1> Tom the IEP Assistant</h1>
           </header>
-          <a href={"mailto:"+this.state.facultyEmail.trim()+"?subject="+subject+"&body="+email}>Open Email App</a></div>
+          <a href={"mailto:" + this.state.facultyEmail.trim() + "?subject=" + subject + "&body=" + email}>Open Email App</a></div>
       );
     } else {
       return (
