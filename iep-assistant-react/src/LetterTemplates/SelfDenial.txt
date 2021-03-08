@@ -1,6 +1,6 @@
 ${user.facultyName},
-    Thank you for getting back to me. I am disappointed that you are unable to help me in this regard. As${user.childName} is one of your students, I do request that you send me a written IEP denial for my records. As the guardian of ${user.childName}, my goal is to assist them with their academic career, and I would like this further documentation in case of future requests.
-    Thank you for your time. If you have any questions or concerns with regards to ${user.childName}, please reach out.
+    Thank you for getting back to me. I am disappointed that you are unable to help me in setting up an IEP. As I am one of your students, I do request that you send me a written IEP denial for my records. My goal is to assist my academic career, and I would like this further documentation in case of future requests.
+    Thank you for your time. If you have any questions or concerns with regards to myself, please reach out.
 
 Best regards,
 ${user.userName}
