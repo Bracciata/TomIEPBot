@@ -1,0 +1,5 @@
+${user.facultyName},
+	I hope this email finds you well! My name is ${user.userName}, I am reaching out to you on behalf of ${user.childName} who is a student under you. Due to ${user.childName}’s performance in class, I was hoping to request a comprehensive educational evaluation of them. This evaluation will help me better understand ${user.childName}’s educational needs, and it will allow me to evaluate whether or not to request an Individualized Education Plan (IEP) for them. 
+If you are able to assist me in this endeavor, I am best reached by this email address. I look forward to working with you!
+Best regards,
+${user.userName}

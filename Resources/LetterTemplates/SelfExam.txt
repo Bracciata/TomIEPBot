@@ -1,0 +1,5 @@
+${user.facultyName},
+	I hope this email finds you well! My name is ${user.userName}. Based on my performance in class, I was hoping to request a comprehensive, educational evaluation for myself. This evaluation will help me better understand my educational needs, and it will allow me to evaluate whether or not to request an Individualized Education Plan (IEP) for myself. 
+If you are able to assist me in this endeavor, I am best reached by this email address. I look forward to working with you!
+Best regards,
+${user.userName}
