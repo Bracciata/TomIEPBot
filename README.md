@@ -2,7 +2,7 @@
 Tom is an Azure Bot to assist students and guardians with navigating the process of setting up an IEP and ensuring it is being followed.
 
 ## The Issue Tom Solves
-Ensuring students with disabilities have an equal right to learning opportunities especially now that the Education System is in a period of large changes.
+Ensuring students with disabilities have an equal right to an education especially now that the Education System is in a period of large changes due to the Covid-19 Pandemic making it easier for students to be left behind.
 
 ## Directory
 iep-assistant-react/
@@ -43,7 +43,9 @@ I faced many challenges while building Tom. The primary challenge when building 
 
 ## Accomplishments that we're proud of
 This was my first Azure Cloud application so I am extremely proud that I learned how to utilize Azure Cloud(thanks heavily to the Cloud Skills Challenge) and have a working product by the end of the hackathon. Another accomplishment I am proud of is building a product that not only helps the world to become more accessible but also helps with educating the youth.
+
 ## What we learned
 I learned the most about IEPs, the processes, and laws associated with them during this hackathon from my research on the internet in addition to talking to my mom and some of her clients.  I also learned how to use Azure Cloud services including building a bot with language understanding on Azure and hosting a web app there. Finally, I learned how to use mailto links for the generated emails and this is something I had never done before.
+
 ## What's next for Tom the IEP Assistant
 I have many ideas for the future of Tom so that he can get better at helping users. First and foremost, I would like to add chatbot features for correcting things such as somebody’s name or email(this was not added solely based on time constraints). I would also like to add more questions for the user to generate a better email. Some of these questions include why the student needs or has an IEP, pronouns of the student, name of the school that the student attends, name of the teacher if they are reaching out to a different faculty member. Finally, I think it would be great to add a connection to a list of Education Advocates and Attorneys to recommend ones that are close to the user if needed.
