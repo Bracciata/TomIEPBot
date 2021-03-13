@@ -24,7 +24,7 @@ Resources/
 - Open the site once it is live.
 
 ## Test out the production version of Tom
-Tom is currently live at https://iepbottom.azurewebsites.net/
+Tom is currently live at https://tomiepassistant.azurewebsites.net/
 
 ## Inspiration
 Tom was inspired by my mother’s(a special needs educator) increased frustration and concern for her students when schools were not properly following IEPs at the start of the COVID-19 pandemic leaving students with disabilities behind. In addition, Tom supports setting up an IEP as my mother also explained the challenges many families go through with setting up an IEP for their child even before COVID-19.
