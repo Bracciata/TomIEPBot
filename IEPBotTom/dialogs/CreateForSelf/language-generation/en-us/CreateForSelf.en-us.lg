@@ -8,9 +8,9 @@
 ]
 
 # ChoiceInput_Prompt_1ONQp9()
-- Was your request rejected by the school or ignroed?
+- Was your request rejected by the school or ignored?
 # ChoiceInput_Prompt_wTru2U()
-- Given that your IEP request was denied I would recommend the following options. First and most importantly you should get the IEP denial in writing so you can see why you were denied. After that you should request a complete, comprehensive education evaluation for yourself and I can help with that. Finally you can and should look into a 504 plan to see if you feel they may be a good fit for you.
+- Given that your IEP request was denied I would recommend the following options. First and foremost you should get the IEP denial in writing so that you have confirmation that you were denied. After that, you should request a complete, comprehensive educational evaluation for yourself, and I can help with that. Finally, you are able to look into a 504 plan to see if it could be a good fit for you.
 # SendActivity_h2bAGq()
 [Activity
     Text = I can help you draft the email requesting written denial. You will need to select the faculty member you would like to reach out to.
@@ -22,9 +22,9 @@
 ]
 
 # SendActivity_1bGfkM()
-- 504s are like IEPs but covered by different laws and not part of special education. You can learn more about them here https://www.understood.org/en/school-learning/special-services/504-plan/what-is-a-504-plan. I hope I was able to properly help you today.
+- 504s are similar to IEPs; however, they are covered by different laws and are not part of standardized special education. You can learn more about 504s here https://www.understood.org/en/school-learning/special-services/504-plan/what-is-a-504-plan. I hope I was able to properly help you today.
 # SendActivity_PTau0b()
 [Activity
-    Text = Since your request was ignored I would recommend reaching out to somebody else. If you reached out to your teacher then try the principal, if you reached out to the principal then try somebody involved in the school district.
+    Text = Since your request was ignored I would recommend reaching out to somebody else. If you reached out to your teacher, I would recommend trying the principal. If you reached out to the principal, you are still able to try somebody involved in the school district.
 ]
 

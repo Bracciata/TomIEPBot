@@ -3,9 +3,9 @@
 # ChoiceInput_Prompt_QdBiqS()
 - Have you tried to create an IEP for ${user.kidsName} before?
 # ChoiceInput_Prompt_c4qUd3()
-- Was your request rejected by the school or ignroed?
+- Was your request rejected by the school or ignored?
 # ChoiceInput_Prompt_vZeGLH()
-- Given that ${user.kidsName} IEP request was denied I would recommend the following options. First and most importantly you should get the IEP denial in writing so you can see why your child was denied. After that you should request a complete, comprehensive education evaluation for your child and I can help with that. Finally you can and should look into a 504 plan to see if they are a good fit for ${user.kidsName}.
+- Given that ${user.kidsName} IEP request was denied I would recommend the following options. First and foremost you should get the IEP denial in writing in order to confirm that you were denied. After that you should request a complete, comprehensive education evaluation for your child and I can help with that. Finally you can and should look into a 504 plan to see if they are a good fit for ${user.kidsName}.
 # TextInput_Prompt_xXsq5a()
 - In that case may I get your child's name too?
 # TextInput_InvalidPrompt_xXsq5a()

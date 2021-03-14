@@ -8,12 +8,8 @@
 # TextInput_InvalidPrompt_VflLT1()
 - Sorry, I did not catch that. What is your name?
 # ChoiceInput_Prompt_reM1e7()
-- Thank you ${user.userName}. Are you hoping to set up an IEP for or get an existing one to be followed?
+- Thank you, ${user.userName}, are you hoping to set up an IEP or get an existing one enforced?
 # SendActivity_9IDzgk()
 -
 # SendActivity_Welcome()
 -
-# SendActivity_hZiEVH()
-[Activity
-    Text = ${uriComponent(user.testing)}
-]

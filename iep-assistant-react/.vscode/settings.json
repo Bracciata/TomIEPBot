@@ -1,3 +1,4 @@
 {
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/dcc84cfc-6f03-4847-a91b-c980cf34caa6/resourceGroups/ODL-accesshack-310121/providers/Microsoft.Web/sites/TomTheIEPAssistant"
 }
