@@ -1,28 +1,28 @@
 {
     "luis": {
         "EnforceForSelf_en_us_lu": {
-            "appId": "afa3881e-712b-44bf-8fb0-dddb340f8534",
+            "appId": "2d07294b-234c-4652-a0af-be294533c54a",
             "version": "0.1"
         },
         "getFacultyEmail_en_us_lu": {
-            "appId": "40948332-3857-4ca0-9e29-be09c565957c",
-            "version": "0.4"
-        },
-        "OnBehalfOfOtherEnforce_en_us_lu": {
-            "appId": "f921fbc0-9a5c-4c4e-9ab9-9612c327ff1c",
-            "version": "0.2"
-        },
-        "IEPBotTom_en_us_lu": {
-            "appId": "50f86c87-e906-43f4-bec2-209ee149b246",
-            "version": "0.4"
+            "appId": "cfbf9e0f-368b-43fe-bc68-65d03d4233e6",
+            "version": "0.1"
         },
         "OnBehalfOfOther_en_us_lu": {
-            "appId": "154eaa23-4841-4892-b79b-66e2e08f887f",
-            "version": "0.4"
+            "appId": "3c96f3d6-a9a9-4635-b6cd-d525b8367b01",
+            "version": "0.1"
+        },
+        "OnBehalfOfOtherEnforce_en_us_lu": {
+            "appId": "86609762-969e-458e-bc17-d3213056057b",
+            "version": "0.1"
         },
         "getFacultyName_en_us_lu": {
-            "appId": "8f03bc87-6cd6-4efa-8aad-31a557d55cda",
-            "version": "0.4"
+            "appId": "0db4429b-2233-478f-8da4-ea0f54cc44f9",
+            "version": "0.1"
+        },
+        "IEPBotTom_en_us_lu": {
+            "appId": "f8de6bc0-04cf-424f-b7b2-ebb076472185",
+            "version": "0.1"
         }
     }
 }
