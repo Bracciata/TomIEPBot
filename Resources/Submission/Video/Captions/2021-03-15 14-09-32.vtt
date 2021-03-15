@@ -1,0 +1,614 @@
+WEBVTT - https://maestrasuite.com
+
+0
+00:00:00.400 --> 00:00:02.489
+Hello, my name is Tommy brought
+Chia and I'm a senior at the
+
+1
+00:00:02.500 --> 00:00:03.799
+University of nebraska-lincoln.
+
+2
+00:00:04.100 --> 00:00:06.289
+I create a table the IEP
+assistant for Microsoft Azure
+
+3
+00:00:06.300 --> 00:00:08.299
+hack for accessibility 20 21.
+
+4
+00:00:08.800 --> 00:00:10.989
+The challenge Tom was built to
+solve was build an application
+
+5
+00:00:11.000 --> 00:00:12.789
+prototype with as you're born
+with people with disabilities
+
+6
+00:00:12.800 --> 00:00:14.599
+in the context of Education.
+
+7
+00:00:15.000 --> 00:00:16.888
+The application should be
+functional with real or sample
+
+8
+00:00:16.900 --> 00:00:17.199
+data.
+
+9
+00:00:17.600 --> 00:00:19.489
+So Thompson's because he's
+built persons with
+
+10
+00:00:19.500 --> 00:00:22.289
+disabilities by ensuring that
+they have an equal right to an
+
+11
+00:00:22.300 --> 00:00:24.489
+education as the education
+system with with Jurassic
+
+12
+00:00:24.500 --> 00:00:27.199
+Period of change of beginning
+of the covid-19 pandemic.
+
+13
+00:00:27.200 --> 00:00:29.899
+It made it easier for students
+with.
+
+14
+00:00:30.200 --> 00:00:32.589
+These to be left behind so Tom
+was built with these students
+
+15
+00:00:32.600 --> 00:00:34.889
+in mind as I receive feedback
+from both students and their
+
+16
+00:00:34.900 --> 00:00:36.799
+families and the process of
+building cam.
+
+17
+00:00:37.800 --> 00:00:39.489
+For some background and
+entomology individualized
+
+18
+00:00:39.500 --> 00:00:40.899
+education plan.
+
+19
+00:00:40.900 --> 00:00:43.599
+IEP is a map of the special
+services astute requires.
+
+20
+00:00:43.600 --> 00:00:46.199
+They are to succeed with their
+disability as of 2018 or 2019
+
+21
+00:00:46.210 --> 00:00:49.499
+school year fourteen percent
+of all us students had an IEP
+
+22
+00:00:50.000 --> 00:00:51.799
+as long as schools were still
+open during the covid-19
+
+23
+00:00:51.810 --> 00:00:54.299
+pandemic including remote
+learning.
+
+24
+00:00:54.300 --> 00:00:56.789
+They are and will require to
+continue to serve students
+
+25
+00:00:56.800 --> 00:00:57.799
+with IEPs.
+
+26
+00:00:57.800 --> 00:00:59.999
+However, many schools struggle
+to properly do this.
+
+27
+00:01:00.200 --> 00:01:04.288
+So that's where Tom comes in
+Thomas and is your bought that
+
+28
+00:01:04.300 --> 00:01:06.288
+was created in order to assist
+both students and their
+
+29
+00:01:06.300 --> 00:01:07.299
+Guardians with creating a new
+
+30
+00:01:07.700 --> 00:01:10.199
+As well as ensuring that
+existing IPS are being followed.
+
+31
+00:01:10.600 --> 00:01:12.489
+This little fun fact Thomas
+named after former, Iowa
+
+32
+00:01:12.500 --> 00:01:15.489
+Senator Tom Harkin introduced
+the individuals with
+
+33
+00:01:15.500 --> 00:01:17.788
+disabilities Education Act,
+which is the bill that covers
+
+34
+00:01:17.800 --> 00:01:18.699
+IEPs
+
+35
+00:01:19.900 --> 00:01:22.189
+So how we incorporated how the
+inspiration for talking about
+
+36
+00:01:22.200 --> 00:01:24.299
+and how we incorporate
+feedback from the community was
+
+37
+00:01:24.700 --> 00:01:26.689
+Thomas inspired by my mother
+who has to be a special needs
+
+38
+00:01:26.700 --> 00:01:29.288
+educator editor increase
+frustration and concern for
+
+39
+00:01:29.300 --> 00:01:31.799
+our students as schools failed
+to properly follow their IEPs
+
+40
+00:01:32.200 --> 00:01:35.599
+before and especially as the
+covid-19 pandemic started.
+
+41
+00:01:35.600 --> 00:01:38.389
+So Thompson also supports the
+setting up of IDs as one main
+
+42
+00:01:38.400 --> 00:01:40.788
+challenge that families face
+is learning how to begin the
+
+43
+00:01:40.800 --> 00:01:41.299
+process.
+
+44
+00:01:41.300 --> 00:01:43.689
+My mother has talked about this
+on the numerous occasions with
+
+45
+00:01:43.700 --> 00:01:44.699
+potential clients.
+
+46
+00:01:45.200 --> 00:01:47.489
+My mother also be in touch with
+some of her clients and their
+
+47
+00:01:47.500 --> 00:01:49.599
+families to get their feedback
+while I was working on top.
+
+48
+00:01:50.100 --> 00:01:52.999
+With these clients families all
+having IEPs for their children
+
+49
+00:01:54.300 --> 00:01:57.588
+Tom was built with ba composer
+framework to deploy in a short
+
+50
+00:01:57.600 --> 00:01:57.999
+bot.
+
+51
+00:01:58.200 --> 00:02:00.088
+The bot is accessible from a
+crate react to have that is
+
+52
+00:02:00.100 --> 00:02:02.889
+hosted within as your web app
+and Tom utilizes application
+
+53
+00:02:02.900 --> 00:02:04.899
+and sites for improving
+development.
+
+54
+00:02:05.000 --> 00:02:07.288
+I'm especially excited about
+this as we put Tom out to
+
+55
+00:02:07.300 --> 00:02:07.999
+production
+
+56
+00:02:08.300 --> 00:02:09.399
+so that we can see 
+
+57
+00:02:09.800 --> 00:02:12.789
+what the users are putting in
+and correct Tom and improve
+
+58
+00:02:12.800 --> 00:02:14.099
+Tom based on that.
+
+59
+00:02:14.200 --> 00:02:14.599
+Finally. 
+
+60
+00:02:14.600 --> 00:02:16.889
+Tom utilizes it language
+understanding Louis for
+
+61
+00:02:16.900 --> 00:02:18.489
+understanding the user
+responding to them correctly
+
+62
+00:02:18.500 --> 00:02:20.199
+during the Or Sation
+
+63
+00:02:20.900 --> 00:02:22.599
+now, I'm going to show you a
+quick demo
+
+64
+00:02:22.900 --> 00:02:24.399
+in order to begin showcasing
+Tom.
+
+65
+00:02:24.400 --> 00:02:27.199
+I'm going to create an IP on
+behalf of another person.
+
+66
+00:02:27.700 --> 00:02:29.299
+So I'm going to turn my name
+first
+
+67
+00:02:30.000 --> 00:02:30.399
+Tommy. 
+
+68
+00:02:30.400 --> 00:02:32.099
+I'm reaching out on behalf of
+another person.
+
+69
+00:02:32.700 --> 00:02:35.299
+So the name of the person is
+many after my cat.
+
+70
+00:02:36.300 --> 00:02:38.499
+I'm hoping to create an IEP for
+many.
+
+71
+00:02:40.100 --> 00:02:42.489
+I have not tried to create one
+from any before so I start by
+
+72
+00:02:42.500 --> 00:02:44.289
+reaching out to many Professor
+who I'm going to named after
+
+73
+00:02:44.300 --> 00:02:45.699
+one of the fastest ever UNL
+
+74
+00:02:46.800 --> 00:02:47.599
+and 
+
+75
+00:02:47.900 --> 00:02:50.199
+Tom is going to ask for the
+preface email.
+
+76
+00:02:52.400 --> 00:02:54.189
+Then Thomas going to spit out
+this link that is going to
+
+77
+00:02:54.200 --> 00:02:56.089
+open up an email that is
+already prefilled with
+
+78
+00:02:56.100 --> 00:02:56.999
+information
+
+79
+00:02:57.400 --> 00:02:59.199
+such as professors email in the
+toolbar
+
+80
+00:02:59.500 --> 00:03:01.199
+or their name right there. 
+
+81
+00:03:01.300 --> 00:03:03.989
+Minnie's name there and just
+kind of a good email to get
+
+82
+00:03:04.000 --> 00:03:05.899
+the ball rolling on creating
+an IEP for many
+
+83
+00:03:06.800 --> 00:03:07.199
+next. 
+
+84
+00:03:07.200 --> 00:03:09.699
+I'm going to get an IP and
+force on behalf of myself.
+
+85
+00:03:09.700 --> 00:03:10.899
+So first I'm gonna ask my name 
+
+86
+00:03:11.800 --> 00:03:13.899
+and I'm reaching out behalf of
+myself.
+
+87
+00:03:13.900 --> 00:03:15.889
+I'd like to get one in fourth I
+have in this case tried
+
+88
+00:03:15.900 --> 00:03:17.199
+reaching out to my professor.
+
+89
+00:03:18.000 --> 00:03:19.489
+I have not reached out to
+somebody else at the school
+
+90
+00:03:19.500 --> 00:03:20.499
+district level.
+
+91
+00:03:20.800 --> 00:03:21.999
+So I'm going to name. 
+
+92
+00:03:22.200 --> 00:03:24.599
+Drop another professor I have
+here at UNL.
+
+93
+00:03:25.600 --> 00:03:27.199
+And then I'm going to enter
+their email address.
+
+94
+00:03:30.800 --> 00:03:33.189
+And once again Tom is going to
+create another email that
+
+95
+00:03:33.200 --> 00:03:36.289
+already has suppressors email
+into to line and then it's
+
+96
+00:03:36.300 --> 00:03:37.989
+going to pre-fill the
+information that was given
+
+97
+00:03:38.000 --> 00:03:40.199
+throughout the email template.
+
+98
+00:03:42.600 --> 00:03:44.699
+There are many challenges faced
+while building Tom the first
+
+99
+00:03:44.710 --> 00:03:47.189
+and foremost was finding time
+to develop Tom while being a
+
+100
+00:03:47.200 --> 00:03:48.999
+full-time student part-time
+entering as well as being
+
+101
+00:03:49.010 --> 00:03:50.989
+heavily involved in the
+University system as midterms
+
+102
+00:03:51.000 --> 00:03:51.899
+approach.
+
+103
+00:03:52.400 --> 00:03:55.189
+Next one challenge that I face
+that I would avoid in the
+
+104
+00:03:55.200 --> 00:03:57.289
+future was I hand coded the
+URL create showed that the
+
+105
+00:03:57.300 --> 00:03:59.899
+react App instead of choosing
+to utilize the package.
+
+106
+00:03:59.900 --> 00:04:01.299
+This was a lesson learned
+moment.
+
+107
+00:04:01.800 --> 00:04:03.789
+Finally trying to follow an
+iterative approach in order to
+
+108
+00:04:03.800 --> 00:04:04.599
+incorporate feedback.
+
+109
+00:04:04.600 --> 00:04:05.799
+My mom and her clients 
+
+110
+00:04:06.200 --> 00:04:08.189
+with a limited timeframe and
+conflicting schedules was
+
+111
+00:04:08.200 --> 00:04:09.299
+extremely challenging.
+
+112
+00:04:10.300 --> 00:04:12.299
+What is expert Tom first and
+foremost I would like to add
+
+113
+00:04:12.310 --> 00:04:13.699
+additional chatbot features
+
+114
+00:04:14.000 --> 00:04:16.398
+for correcting things such as
+soil baby's name or email.
+
+115
+00:04:17.000 --> 00:04:20.089
+I would also like to add more
+questions for Tom to generate
+
+116
+00:04:20.100 --> 00:04:20.999
+a better email.
+
+117
+00:04:21.899 --> 00:04:23.899
+For example, these may include
+why the student needs are has
+
+118
+00:04:23.910 --> 00:04:26.699
+an IEP the school the student
+goes to
+
+119
+00:04:27.000 --> 00:04:29.189
+and for example the role of the
+faculty member if they're not
+
+120
+00:04:29.200 --> 00:04:30.399
+there Professor.
+
+121
+00:04:30.900 --> 00:04:31.299
+Finally. 
+
+122
+00:04:31.300 --> 00:04:32.689
+I would like to add a
+connection to a list of at
+
+123
+00:04:32.700 --> 00:04:34.499
+education Advocates and
+attorneys
+
+124
+00:04:35.100 --> 00:04:36.799
+so that they can recommend them
+when
+
+125
+00:04:37.200 --> 00:04:38.799
+they are closed if it's needed. 
+
+126
+00:04:39.800 --> 00:04:42.099
+Here are some of my sources and
+including psychics on my
+
+127
+00:04:42.110 --> 00:04:42.799
+interviews.
+
+128
+00:04:43.000 --> 00:04:45.489
+I just like to thank you for
+taking time out of your day to
+
+129
+00:04:45.500 --> 00:04:46.299
+judge the saxophone.
+
