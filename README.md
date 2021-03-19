@@ -7,8 +7,10 @@ Ensuring students with disabilities have an equal right to an education especial
 ## Directory
 iep-assistant-react/
 - Houses the React Application front end.
+
 IEPBotTom/
 - Houses the source code from Bot Composer Framework for Tom.
+
 Resources/ 
 - Houses resources used in the application such as the Letter Templates for the emails.
 
