@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {
@@ -37,7 +37,7 @@ function App() {
       <header className="App-header">
         <h1> Tom the IEP Assistant</h1>
       </header>
-      <h2>Tom is here to walk you through the progres of getting an IEP set up for yourself or somebody else in addition to reaching out if it is not being followed.
+      <h2>Tom is here to walk you through the process of getting an IEP set up for yourself or somebody else in addition to reaching out if it is not being followed.
       </h2>
       <iframe src={'https://webchat.botframework.com/embed/ODL-accesshack-310121?s=' + API_KEY} style={iFrameStlye}></iframe>
     </div>

@@ -42,5 +42,29 @@ html, body,#root{
   }
 }
 h2{
-  height: 5vh;
+  margin: 0;
+  font-size: 1em;
+  height: 82px;
 }
+@media only screen and (min-width: 768px) {
+h2{
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1.5em;
+  height: 85px;
+
+}
+}
+@media only screen and (min-width: 1728px) {
+  h2{
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.5em;
+    height: 50px;
+  
+  }
+  }
